@@ -1,0 +1,170 @@
+/* Resetar estilos */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* Limpar elementos de formulário */
+:focus {
+  outline: 0;
+}
+
+/* Adicionar estilos padrão para alguns elementos */
+a:link {
+  text-decoration: none;
+}
+
+/* Adicionar regras para elementos que suportam :hover */
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+    font-family: sans-serif;
+}
+
+.logofacebook {
+    margin-right: 80px;
+}
+
+.home-button {
+    background-color: rgb(65, 65, 65);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+}
+
+.watch-button {
+    background-color: rgb(65, 65, 65);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+}
+
+.merch-button {
+    background-color: rgb(65, 65, 65);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+}
+
+.people-button {
+    background-color: rgb(65, 65, 65);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+}
+
+.mypicture {
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+.myname {
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.wallpaper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.profilepic {
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    display: flex;
+    transform: translate(20px,-40px);
+    border: 3px solid rgb(65, 65, 65);
+}
+
+.wallpaperprinc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.mainpage {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.picplusname {
+    display: flex;
+}
+
+.apresentacao {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.biografia {
+    display: flex;
+    margin-top: 12px;
+    color:rgba(255, 255, 255, 0.911);
+    max-width: 400px;
+    margin-left: 12px;
+}
+
+.conteudoprincipal {
+    border: 2px solid rgba(231, 231, 231, 0.719);
+    max-width: 400px;
+    height: 600px;
+}
+
+footer {
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
