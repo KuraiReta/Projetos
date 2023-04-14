@@ -154,24 +154,26 @@ body {
     color:rgba(255, 255, 255, 0.911);
     max-width: 400px;
     margin-left: 12px;
-    margin-right: 4px;
+    margin-right: 8px;
 }
 
 .conteudoprincipal {
     border: 2px solid rgba(231, 231, 231, 0.719);
     max-width: 400px;
-    height: 567px;
+    height: 580px;
     text-align: justify;
 }
 
 .prompt {
     width: 200px;
     border: 2px solid rgba(231, 231, 231, 0.719);
+    transform: translate(8px, 0px);
 }
 
 .program {
     display: flex;
     width: 192px;
+    height: 148px;
     border: 2px solid rgba(231, 231, 231, 0.719);
     transform: translate(-12px, -12px);
 }
@@ -186,12 +188,21 @@ footer {
     justify-content: center;
     font-family: sans-serif;    
     width: 100%;
+    margin-top: 20px;
+    font-family: sans-serif;
 }
 
-.conteudosecundario {
+ .conteudosecundario {
     display: flex;
     margin-top: 12px;
-    color:rgba(255, 255, 255, 0.911);
+    color:rgba(189, 48, 48, 0.911);
     max-width: 400px;
     margin-left: 12px;
+    flex-direction: column-reverse;
+}
+
+.footertext {
+    display: flex;
+    text-align: center;
+    margin: 10px;
 }
