@@ -154,17 +154,44 @@ body {
     color:rgba(255, 255, 255, 0.911);
     max-width: 400px;
     margin-left: 12px;
+    margin-right: 4px;
 }
 
 .conteudoprincipal {
     border: 2px solid rgba(231, 231, 231, 0.719);
     max-width: 400px;
-    height: 600px;
+    height: 567px;
+    text-align: justify;
+}
+
+.prompt {
+    width: 200px;
+    border: 2px solid rgba(231, 231, 231, 0.719);
+}
+
+.program {
+    display: flex;
+    width: 192px;
+    border: 2px solid rgba(231, 231, 231, 0.719);
+    transform: translate(-12px, -12px);
+}
+
+.resume2 {
+    transform: translate(-5px, -8px);
 }
 
 footer {
     background-color: rgb(65, 65, 65);
     display: flex;
-    justify-content: space-between;
-    font-family: sans-serif;
+    justify-content: center;
+    font-family: sans-serif;    
+    width: 100%;
+}
+
+.conteudosecundario {
+    display: flex;
+    margin-top: 12px;
+    color:rgba(255, 255, 255, 0.911);
+    max-width: 400px;
+    margin-left: 12px;
 }
